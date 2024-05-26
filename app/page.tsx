@@ -8,7 +8,7 @@ import Footer from "@/components/Footer";
 import Clients from "@/components/Clients";
 import Approach from "@/components/Approach";
 import Experience from "@/components/Experience";
-import RecentProjects from "@/components/RecentProjects";
+import RecentProjects from "@/components/Projects";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
 
 const Home = () => {

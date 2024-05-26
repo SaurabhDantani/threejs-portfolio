@@ -6,6 +6,7 @@ import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 
 const Hero = () => {
   return (
+    <section id="about" className="top-1/2">
     <div className="pb-20 pt-36">
       {/**
        *  UI: Spotlights
@@ -43,7 +44,7 @@ const Hero = () => {
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
-            Dynamic Web Magic with Next.js
+            Forge Dynamic Web Experiences at the Forefront of Technology
           </p>
 
           {/**
@@ -57,7 +58,7 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Adrian, a Next.js Developer based in Croatia.
+            Hi! I&apos;m Saurabh, a FullStack Web Developer based in Ahmedabad.
           </p>
 
           <a href="#about">
@@ -70,6 +71,7 @@ const Hero = () => {
         </div>
       </div>
     </div>
+    </section>
   );
 };
 
